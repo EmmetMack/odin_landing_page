@@ -3,10 +3,10 @@
     
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 128px;
+    padding: 0 240px;
 }
 
-.nav {
+.nav, .hero p {
     display:flex;
     font-size: 18px;
     color: #E5E7EB;
@@ -20,29 +20,19 @@
 .hero {
     display: flex;
     align-items: flex-start;
-    padding: 72px 0;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 128px 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .hero-left h1 {
     font-size: 48px;
     font-weight: extra-bold;
-}
-
-.hero-left {
-    flex: 1;
-    padding: 10px;
-}
-
-.hero-right {
-    flex: 1 1 0;
-    display: flex;   
-}
-
-.hero-right img {
-    width: 50%;
-    height: auto;
-    margin-left: auto;
 }
 
 ul {
