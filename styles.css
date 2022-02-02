@@ -52,3 +52,27 @@ button {
     font-size: 14px;
     border-style: none;
 }
+
+.box-container {
+    text-align: center;
+}
+
+.box-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.box-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0 360px;
+}
+
+.box-content img {
+    border-radius: 12px;
+    border: 5px solid #3882F6;
+}
